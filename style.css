@@ -122,6 +122,14 @@ button {
     margin-bottom: 18px;
 }
 
+.loader-en-name {
+    font-size: 1.2rem;
+    letter-spacing: 4px;
+    color: var(--muted);
+    margin-bottom: 24px;
+    font-weight: 400;
+}
+
 .loader-line {
     width: 220px;
     height: 8px;
@@ -169,6 +177,20 @@ button {
     align-items: center;
     gap: 12px;
     font-weight: 800;
+}
+
+.logo-text-wrapper {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.1;
+}
+
+.logo-en-text {
+    font-size: 0.65rem;
+    letter-spacing: 1.5px;
+    color: var(--primary);
+    opacity: 0.8;
+    font-weight: 700;
 }
 
 .logo-mark {
@@ -704,6 +726,63 @@ button {
 
 .timeline-card p {
     color: var(--muted);
+}
+
+/* Films Section Styles */
+.films-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 24px;
+}
+
+.film-card {
+    padding: 34px 28px;
+    border-radius: var(--radius-lg);
+    background: var(--surface);
+    backdrop-filter: blur(14px);
+    border: 1px solid var(--line);
+    box-shadow: var(--shadow-soft);
+    text-align: center;
+    transition: var(--transition);
+}
+
+.film-icon {
+    width: 68px;
+    height: 68px;
+    display: grid;
+    place-items: center;
+    margin: 0 auto 20px;
+    border-radius: 20px;
+    background: linear-gradient(135deg, var(--primary-soft), var(--sky));
+    color: var(--primary);
+    font-size: 1.6rem;
+}
+
+.film-type {
+    display: inline-block;
+    margin-bottom: 12px;
+    padding: 6px 14px;
+    border-radius: 999px;
+    background: rgba(15, 123, 108, 0.08);
+    color: var(--primary);
+    font-weight: 800;
+    font-size: 0.85rem;
+}
+
+.film-card h3 {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+}
+
+.film-card p {
+    color: var(--muted);
+    font-size: 0.95rem;
+}
+
+.film-card:hover {
+    transform: translateY(-8px);
+    border-color: rgba(15, 123, 108, 0.22);
+    box-shadow: var(--shadow);
 }
 
 .video-panel {
