@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1040" viewBox="0 0 800 1040">
+  <defs>
+    <linearGradient id="bg5" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#102852"/>
+      <stop offset="62%" stop-color="#29588f"/>
+      <stop offset="100%" stop-color="#f0eee6"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1040" fill="url(#bg5)"/>
+  <circle cx="585" cy="200" r="120" fill="#fff4d6"/>
+  <circle cx="585" cy="200" r="90" fill="#f0e6c8"/>
+  <circle cx="565" cy="170" r="14" fill="#d5cbb0"/>
+  <circle cx="620" cy="210" r="18" fill="#d5cbb0"/>
+  <circle cx="560" cy="235" r="10" fill="#d5cbb0"/>
+  <path d="M0 760 C160 680, 320 770, 430 720 S640 650, 800 725 L800 1040 L0 1040 Z" fill="#e6e2d7"/>
+  <path d="M320 640 l74 220 h-148 z" fill="#f7ba48"/>
+  <circle cx="320" cy="596" r="42" fill="#f7ba48"/>
+  <path d="M300 698 l-42 52 M340 704 l56 48" stroke="#f7ba48" stroke-width="14" stroke-linecap="round"/>
+  <circle cx="172" cy="208" r="8" fill="#fff7de"/>
+  <circle cx="215" cy="252" r="6" fill="#fff7de"/>
+  <circle cx="116" cy="304" r="5" fill="#fff7de"/>
+  <text x="400" y="810" text-anchor="middle" fill="#fff7e8" font-family="Cairo, Arial" font-size="62" font-weight="800">تيم على سطح القمر</text>
+  <text x="400" y="885" text-anchor="middle" fill="#fff1c7" font-family="Cairo, Arial" font-size="30">قصص للأطفال</text>
+  <text x="400" y="940" text-anchor="middle" fill="#f7d06f" font-family="Cairo, Arial" font-size="28">2025</text>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1040" viewBox="0 0 800 1040">
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f6efe2"/>
+      <stop offset="48%" stop-color="#d8ddd8"/>
+      <stop offset="100%" stop-color="#22405d"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1040" fill="url(#bg3)"/>
+  <rect x="136" y="168" width="360" height="460" rx="24" fill="#faf7ef" stroke="#10253d" stroke-opacity="0.14"/>
+  <rect x="176" y="226" width="280" height="18" rx="8" fill="#c7d3d6"/>
+  <rect x="176" y="270" width="236" height="14" rx="7" fill="#c7d3d6"/>
+  <rect x="176" y="314" width="248" height="14" rx="7" fill="#c7d3d6"/>
+  <rect x="176" y="358" width="206" height="14" rx="7" fill="#c7d3d6"/>
+  <rect x="176" y="402" width="252" height="14" rx="7" fill="#c7d3d6"/>
+  <rect x="176" y="446" width="188" height="14" rx="7" fill="#c7d3d6"/>
+  <path d="M534 246 l102 58 v194 l-102 58 l-102 -58 v-194 z" fill="#16334c" opacity="0.92"/>
+  <path d="M520 230 l102 58" stroke="#f0c77f" stroke-width="8" stroke-linecap="round"/>
+  <path d="M432 584 l250 -170" stroke="#f0c77f" stroke-opacity="0.68" stroke-width="4" stroke-dasharray="12 12"/>
+  <text x="400" y="805" text-anchor="middle" fill="#17324d" font-family="Cairo, Arial" font-size="58" font-weight="800">مقدمة في</text>
+  <text x="400" y="875" text-anchor="middle" fill="#17324d" font-family="Cairo, Arial" font-size="62" font-weight="800">كتابة السيناريو</text>
+  <text x="400" y="935" text-anchor="middle" fill="#b07d22" font-family="Cairo, Arial" font-size="28">2024</text>
+</svg>

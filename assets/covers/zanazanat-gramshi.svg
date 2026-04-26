@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1040" viewBox="0 0 800 1040">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#102d38"/>
+      <stop offset="55%" stop-color="#204b57"/>
+      <stop offset="100%" stop-color="#e4c18f"/>
+    </linearGradient>
+    <linearGradient id="light" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f4d9a8" stop-opacity="0.92"/>
+      <stop offset="100%" stop-color="#f4d9a8" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1040" fill="url(#bg)"/>
+  <rect x="72" y="72" width="656" height="896" rx="28" fill="none" stroke="#f3e6d1" stroke-opacity="0.34"/>
+  <rect x="120" y="220" width="148" height="210" rx="10" fill="#0d2027"/>
+  <rect x="138" y="240" width="112" height="170" rx="6" fill="url(#light)"/>
+  <rect x="344" y="210" width="20" height="530" rx="10" fill="#12252b" opacity="0.55"/>
+  <rect x="392" y="210" width="20" height="530" rx="10" fill="#12252b" opacity="0.55"/>
+  <rect x="440" y="210" width="20" height="530" rx="10" fill="#12252b" opacity="0.55"/>
+  <circle cx="620" cy="265" r="122" fill="#f2cf94" fill-opacity="0.18"/>
+  <path d="M140 760 C220 650, 300 660, 390 720 S560 790, 660 700" fill="none" stroke="#f3e0bf" stroke-opacity="0.3" stroke-width="4"/>
+  <text x="400" y="815" text-anchor="middle" fill="#f8efe4" font-family="Cairo, Arial" font-size="56" font-weight="700">لا شيء في</text>
+  <text x="400" y="885" text-anchor="middle" fill="#f8efe4" font-family="Cairo, Arial" font-size="60" font-weight="800">زنزانة غرامشي</text>
+  <text x="400" y="940" text-anchor="middle" fill="#f0d7ab" font-family="Cairo, Arial" font-size="28">مجموعة قصصية 2025</text>
+</svg>
