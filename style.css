@@ -742,8 +742,26 @@ button {
     backdrop-filter: blur(14px);
     border: 1px solid var(--line);
     box-shadow: var(--shadow-soft);
-    text-align: center;
     transition: var(--transition);
+}
+
+.film-poster {
+    margin-bottom: 22px;
+    border-radius: 22px;
+    overflow: hidden;
+    box-shadow: 0 18px 32px rgba(24, 56, 89, 0.16);
+    background: var(--primary-soft);
+}
+
+.film-poster img {
+    width: 100%;
+    aspect-ratio: 4 / 5.2;
+    object-fit: cover;
+    transition: transform 0.45s ease;
+}
+
+.film-card:hover .film-poster img {
+    transform: scale(1.06);
 }
 
 .film-icon {
