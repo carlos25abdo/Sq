@@ -21,7 +21,7 @@ window.addEventListener("load", () => {
 
     loaderTl
         .from(".loader-photo", { y: 24, opacity: 0, duration: 0.8, ease: "power3.out" })
-        .from(".loader-kicker, .loader-name", { y: 18, opacity: 0, stagger: 0.12, duration: 0.6 }, "-=0.35")
+        .from(".loader-kicker, .loader-name, .loader-en-name", { y: 18, opacity: 0, stagger: 0.12, duration: 0.6 }, "-=0.35")
         .fromTo(".loader-line span", { xPercent: -120 }, { xPercent: 250, duration: 1.4, ease: "power2.inOut" }, "-=0.2")
         .to("#loader", { opacity: 0, duration: 0.8, delay: 0.1 });
 });
